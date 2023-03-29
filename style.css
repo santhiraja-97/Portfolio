@@ -1,0 +1,1499 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gothic A1', sans-serif;
+    font-family: "Century Gothic";
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+/**************************** Home *********************************/
+.home{
+    background-color: rgb(236, 243, 250);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1040px;
+    height: 643px;  
+}
+.navigation{
+    font-size: 21px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    line-height: 1.2;
+    position: absolute;
+    left: 70px;
+    top: 55px;
+    display: flex;
+    flex-direction: row;
+}
+.navigation p{
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+    padding-left: 50px;
+    padding-right: 50px;
+    cursor: pointer;
+}
+.navigation a{
+    text-decoration: none;
+}
+.navigation button{
+    background-color: rgb(32, 143, 254);
+    box-shadow: 0px 15px 24px 0px rgba(32, 143, 254, 0.4);
+    position: absolute;
+    font-size: 15px;
+    left: 650px;
+    top: -5px;
+    width: 110px;
+    height: 32px;
+    border: none;
+    border-radius: 20px;
+    color: rgb(255, 255, 255); 
+}
+.navigation button:hover{
+    background-color: rgb(15, 93, 172);
+}
+.welcome{
+    background-color: rgb(32, 143, 254);
+    box-shadow: 0px 15px 14px 0px rgba(32, 143, 254, 0.4);
+    position: absolute;
+    text-align: center;
+    padding-top: 5px;
+    color: rgb(255, 255, 255);
+    left: 130px;
+    top: 140px;
+    width: 294px;
+    height: 30px;
+    border-radius: 0px 20px 0px 20px; 
+}
+.image{
+    background-image: url("Ellipse 1.png");
+    position: absolute;
+    left: 800px;
+    top: 200px;
+    width: 430px;
+    height: 400px;
+}
+.image img{
+    margin-top: -58px;
+    margin-left: 73px;
+}
+.content p{
+    font-size: 21px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(32, 143, 254);
+    line-height: 1.2;
+    position: absolute;
+    left: 200px;
+    top: 270px;
+}
+.content .name p:first-child{
+    font-size: 60px;
+    font-family: "Century Gothic";
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    position: absolute;
+    left: 240px;
+    top: 280px;  
+}
+
+.content .name p:last-child{
+    font-size: 71px;
+    font-family: "Century Gothic";
+    color: #9404f9;
+    font-weight: bold;
+    position: absolute;
+    left: 340px;
+    top: 280px;  
+}
+.content h2{
+    font-size: 60px;
+    font-family: "Century Gothic";
+    color: #000000;
+    font-weight: bold;
+    position: absolute;
+    left: 340px;
+    top: 350px;
+}
+.content button{
+    background-color: rgb(148, 4, 249);
+    box-shadow: 0px 15px 24px 0px rgba(148, 4, 249, 0.35);
+    border: none;
+    border-radius: 22px;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    left: 316px;
+    top: 480px;
+    width: 130px;
+    height: 38px;
+    font-size: 17px;
+    font-family: "Bahnschrift";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.2;
+    padding-left: 5px;
+    cursor: pointer;
+}
+.content button:hover{
+    background-color: rgb(107, 5, 180);
+}
+.content button img{
+    width: 10px;
+    height: 15px;
+    margin-left: 10px;
+}
+.sidecontact .email{
+    background-color: rgb(255, 255, 255);
+    border-radius: 12px;
+    position: absolute;
+    left: 29px;
+    top: 220px;
+    width: 22px;
+    height: 186px;
+      
+}
+.email p{
+    font-size: 12.5px;
+    font-family: "Bahnschrift";
+    color: rgb(37, 99, 95);
+    line-height: 1.2;
+    -moz-transform: matrix( 3.84372666378031e-16,-1,1,0,0,0);
+    transform: matrix( 3.84372666378031e-16,-1,1,0,0,0);
+    -ms-transform: matrix( 3.84372666378031e-16,-1,1,0,0,0);
+    position: absolute;
+    left: -57px;
+    top: 75px;
+}
+.email p svg{
+    position: absolute;
+    left: -25px;
+    width: 16px;
+    color: rgb(32, 143, 254);     
+}
+.sidecontact .phone{
+    background-color: rgb(255, 255, 255);
+    border-radius: 12px;
+    position: absolute;
+    left: 29px;
+    top: 440px;
+    width: 22px;
+    height: 150px;   
+}
+.phone p{
+    font-size: 14px;
+    font-family: "Bahnschrift";
+    color: rgb(37, 99, 95);
+    line-height: 1.2;
+    -moz-transform: matrix( 1.90945658366561e-16,-1,0.81699972152,0,0,0);
+    transform: matrix( 1.90945658366561e-16,-1,0.81699972152,0,0,0);
+    -ms-transform: matrix( 1.90945658366561e-16,-1,0.81699972152,0,0,0);
+    position: absolute;
+    left: -33px;
+    top: 60px;
+}
+.phone p svg{
+    position: absolute;
+    color: rgb(32, 143, 254);
+    left: -25px;
+    width: 16px;
+    rotate: 20deg;     
+}
+.designs .Triangle img{
+    position: relative;
+    top: 70px;
+    left: 60px;
+}
+.designs .zig img{
+    position: relative;
+    top: 550px;
+    left: 100px;
+}
+.designs .circle{
+    border-width: 5px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0);
+    opacity: 0.502;
+    position: absolute;
+    left: 950px;
+    top: 8px;
+    width: 28px;
+    height: 28px;  
+}
+.designs .tri img{
+    position: relative;
+    left: 850px;
+}
+.designs .tri2 img{
+    position: relative;
+    left: 750px;
+    top: 50px;
+}
+.designs .tri3 img{
+    position: absolute;
+    left: 560px;
+    top: 260px;
+    width: 14px;
+    height: 13px;
+}
+.designs .tri4 img{
+    position: absolute;
+    left: 619px;
+    top: 580px;
+    width: 13px;
+    height: 13px;
+}
+.designs .tri5 img{
+    position: relative;
+    left: 1300px;
+}
+.designs .square img{
+    position: relative;
+    left: 1220px;
+    top: -130px;
+    opacity: 50%;
+}
+.designs .tri6 img{
+    position: relative;
+    left: 1200px;
+    top: 210px;
+}
+.designs .tri7 img{
+    position: relative;
+    left: 1300px;
+    top: 260px;
+}
+.designs .circle2{
+    border-width: 5px;
+    border-color: rgb(236, 243, 250);
+    border-style: solid;
+    border-radius: 50%;
+    background-color: rgba(148, 4, 249, 0);
+    opacity: 0.502;
+    position: absolute;
+    left: 1320px;
+    top: 400px;
+    width: 20px;
+    height: 20px;      
+}
+.designs .circle3{
+    border-width: 5px;
+    border-color: rgb(255, 230, 0);
+    border-style: solid;
+    border-radius: 50%;
+    background-color: rgba(148, 4, 249, 0);
+    opacity: 0.502;
+    position: absolute;
+    left: 1150px;
+    top: 154px;
+    width: 11px;
+    height: 11px; 
+}
+
+/**************************** ABOUT ME *********************************/
+.about{
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    left: 0px;
+    top: 643px;
+    width: 1349px;
+    height: 643px;     
+}
+.about h2{
+    font-size: 60px;
+    font-family: "Century Gothic";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.2;
+    position: absolute;
+    left: 400px;
+    top: 50px;   
+}
+.about .line{
+    background-color: rgb(255, 246, 0);
+    position: absolute;
+    left: 400px;
+    top: 140px;
+    width: 222px;
+    height: 4px;    
+}
+.about .dot{
+    background-color: rgb(251, 251, 251);
+    position: absolute;
+    left: 650px;
+    top: 140px;
+    width: 4px;
+    height: 4px;     
+}
+.about h3{
+    font-size: 29px;
+    font-weight: 100;
+    font-family: "Century Gothic";
+    color: rgb(255, 255, 255);
+    line-height: 1.143;
+    position: absolute;
+    left: 400px;
+    top: 200px;
+}
+.about p{
+    font-size: 21px;
+    font-family: "Century Gothic";
+    color: rgb(255, 255, 255);
+    line-height: 1.6;
+    position: absolute;
+    left: 400px;
+    top: 300px;
+}
+.about button{
+    border-width: 2px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    left: 400px;
+    top: 530px;
+    width: 239px;
+    height: 52px;
+    padding-left: 40px;
+    font-size: 19px;
+    font-family: "Bahnschrift";
+    color: rgb(255, 255, 255);
+    line-height: 1.6;
+    position: absolute;
+    cursor: pointer;        
+}
+.about button img{
+    width: 13px;
+    height: 20px;
+    float: right;
+    padding-right: 30px;
+    padding-top: 5px;
+}
+.about button:hover{
+    border-color: rgb(255, 246, 0);
+}
+.about .designs .circle{
+    border: 6px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    position: absolute;
+    left: 1250px;
+    top: 50px;
+    width: 33px;
+    height: 33px;     
+}
+.about .designs .rectangle{
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    left: -8px;
+    top: 40px;
+    width: 11px;
+    height: 137px;     
+}
+.about .designs .square{
+    border: 3px solid rgb(93, 101, 4);
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    left: 105px;
+    top: 130px;
+    width: 14px;
+    height: 14px;      
+}
+.about .designs .dot{
+    border-radius: 50%;
+    background-color: rgb(252, 87, 4);
+    position: absolute;
+    left: 200px;
+    top: 220px;
+    width: 7px;
+    height: 7px;     
+}
+.about .designs .dot2{
+    border-radius: 50%;
+    background-color: rgb(42, 255, 0);
+    position: absolute;
+    left: -5px;
+    top: 260px;
+    width: 10px;
+    height: 10px;     
+}
+.about .designs .dot3{
+    border-radius: 50%;
+    background-color: rgb(251, 251, 251);
+    position: absolute;
+    left: 117px;
+    top: 460px;
+    width: 3px;
+    height: 3px;     
+}
+.about .designs .dot4{
+    border-radius: 50%;
+    background-color: rgb(234, 255, 0);
+    position: absolute;
+    left: 79px;
+    top: 600px;
+    width: 8px;
+    height: 8px;     
+}
+.about .designs .dot5{
+    border-radius: 50%;
+    background-color: rgb(186, 22, 22);
+    position: absolute;
+    left: 1300px;
+    top: 300px;
+    width: 6px;
+    height: 6px;      
+}
+.about .designs .dot6{
+    border-radius: 50%;
+    background-color: rgb(27, 204, 198);
+    position: absolute;
+    left: 1216px;
+    top: 600px;
+    width: 6px;
+    height: 6px;     
+}
+.about .designs .ellipse{
+    position: absolute;
+    left: -10px;
+    top: 400px;
+    width: 48px;
+    height: 60px;     
+}
+.about .designs .rocket{
+    position: absolute;
+    left: 800px;
+    top: 500px;
+}
+.about .designs .rectangle2{
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    left: 1345px;
+    top: 380px;
+    width: 5px;
+    height: 150px;     
+}
+
+/**************************** SKILLS *********************************/
+.skills{
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    left: 0px;
+    top: 1286px;
+    width: 1349px;
+    height: 320px;     
+}
+.skills h3{
+    font-size: 40px;
+    font-family: "Century Gothic";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 3.2;
+    position: absolute;
+    top: -50px;
+    left: 400px;    
+}
+.skills .line{
+    background-color: rgb(255, 252, 0);
+    position: absolute;
+    left: 400px;
+    top: 40px;
+    width: 86px;
+    height: 4px;    
+}
+.skills .pro p:nth-child(1){
+    font-size: 29px;
+    font-family: "Century Gothic";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    position: absolute;
+    left: 400px;
+    top: 100px;    
+}
+.skills .pro p:nth-child(2){
+    font-size: 29px;
+    font-family: "Century Gothic";
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    position: absolute;
+    text-align: center;
+    left: 520px;
+    top: 100px;
+    background-color: rgb(255, 255, 255);
+    position: absolute; 
+    width: 70px; 
+}
+.skills .pro p:nth-child(3){
+    font-size: 29px;
+    font-family: "Century Gothic";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    position: absolute;
+    text-align: center;
+    left: 650px;
+    top: 100px;
+}
+.skills .pro p:nth-child(4){
+    font-size: 29px;
+    font-family: "Century Gothic";
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    position: absolute;
+    text-align: left;
+    left: 720px;
+    top: 100px;
+    background-color: rgb(255, 255, 255);
+    position: absolute; 
+    width: 85px;
+    height: 38px;
+}
+.skills .pro p:nth-child(5){
+    font-size: 29px;
+    font-family: "Century Gothic";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    position: absolute;
+    text-align: left;
+    left: 400px;
+    top: 210px;
+}
+.skills .pro p:nth-child(6){
+    font-size: 29px;
+    font-family: "Century Gothic";
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    position: absolute;
+    text-align: left;
+    left: 500px;
+    top: 210px;
+    background-color: rgb(255, 255, 255);
+    position: absolute; 
+    width: 150px;
+    height: 38px;
+}
+.skills .pro p:nth-child(7){
+    font-size: 29px;
+    font-family: "Century Gothic";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    position: absolute;
+    text-align: left;
+    left: 710px;
+    top: 210px;
+}
+.skills .designs .rocket{
+    position: absolute;
+    top: 10px;   
+}
+.skills .designs .rocket3{
+    position: absolute;
+    left: 84px;
+    top: 230px;
+    width: 17px;
+    height: 20px;  
+}
+.skills .designs .rocket4{
+    position: absolute;
+    left: 1000px;
+    top: 190px;
+    width: 12px;
+    height: 8px;
+}
+.skills .designs .rocket5{
+    position: absolute;
+    left: 1325px;
+    top: 50px;
+    width: 18px;
+    height: 19px;     
+}
+.skills .designs .circle{
+    border-width: 6px;
+    border-color: rgb(37, 111, 124);
+    border-style: solid;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    left: 1000px;
+    top: 10px;
+    width: 33px;
+    height: 33px;        
+}
+/**************************** PROJECT *********************************/
+.project{
+    background-color: rgb(236, 243, 250);
+    position: absolute;
+    left: 0px;
+    top: 1606px;
+    width: 1349px;
+    height: 630px; 
+}
+.project h3{
+    font-size: 60px;
+    font-family: "Century Gothic";
+    color: rgb(50, 6, 123);
+    font-weight: bold;
+    line-height: 2.133;
+    position: absolute;
+    left: 550px;
+    top: 0px;     
+}
+.project .line{
+    background-color: rgb(230, 80, 87);
+    position: absolute;
+    left: 550px;
+    top: 110px;
+    width: 155px;
+    height: 4px;     
+}
+.project .dot{
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    left: 740px;
+    top: 110px;
+    width: 4px;
+    height: 4px;    
+}
+.project .pic{
+    display: flex;
+    flex-direction: row;
+    top: 150px;
+}
+.pic .hotel img{
+    border-radius: 20px;
+    margin-top: 150px;
+    margin-left: 30px;
+    box-shadow: 0px 27px 38px 0px rgba(20, 24, 37, 0.53);
+    width: 611px;
+    height: 287px;
+}
+.pic .amc img{
+    border-radius: 20px;
+    margin-top: 150px;
+    margin-left: 70px;
+    box-shadow: 0px 27px 38px 0px rgba(20, 24, 37, 0.53);
+    width: 611px;
+    height: 287px;
+}
+.pic .hotel .overlay{
+    border-radius: 20px;
+    margin-left: 30px;
+    margin-top: -293px;
+    height: 287px;
+    width: 611px;
+    background-image: -moz-linear-gradient( 87deg, rgb(0,0,0) 0%, rgba(191,145,122,0) 100%);
+    background-image: -webkit-linear-gradient( 87deg, rgb(134, 5, 5) 0%, rgba(191,145,122,0) 100%);
+    background-image: -ms-linear-gradient( 87deg, rgb(236, 4, 4) 0%, rgba(191,145,122,0) 100%);
+    position: absolute;
+    opacity: 0;
+}
+.pic .hotel:hover .overlay{
+    opacity: 1;
+}
+
+.pic .hotel .overlay .name{
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    font-family: "Century Gothic";
+    font-weight: bold;
+    position: absolute;
+    text-align: center;
+    top: 100px;
+    left: 200px;
+    cursor: pointer;
+}
+.pic .hotel .overlay svg{
+    color: rgb(255, 255, 255);
+    margin-top: 180px;
+    margin-left: 290px;
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+}
+.pic .amc .overlay{
+    border-radius: 20px;
+    margin-left: 70px;
+    margin-top: -294px;
+    height: 287px;
+    width: 611px;
+    background-image: -moz-linear-gradient( 87deg, rgb(0,0,0) 0%, rgba(191,145,122,0) 100%);
+    background-image: -webkit-linear-gradient( 87deg, rgb(134, 5, 5) 0%, rgba(191,145,122,0) 100%);
+    background-image: -ms-linear-gradient( 87deg, rgb(236, 4, 4) 0%, rgba(191,145,122,0) 100%);
+    position: absolute;
+    opacity: 0;
+}
+.pic .amc:hover .overlay{
+    opacity: 1;
+}
+.pic .amc .overlay .name{
+    color: white;
+    font-size: 25px;
+    font-family: "Century Gothic";
+    font-weight: bold;
+    position: absolute;
+    text-align: center;
+    top: 100px;
+    left: 200px;
+    cursor: pointer;
+}
+.pic .amc .overlay svg{
+    color: rgb(255, 255, 255);
+    margin-top: 180px;
+    margin-left: 290px;
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+}
+.project button{
+    border-width: 3px;
+    border-color: rgb(210, 6, 6);
+    border-style: solid;
+    border-radius: 10px;
+    background-color: rgba(191, 145, 122, 0);
+    position: absolute;
+    left: 614px;
+    top: 550px;
+    width: 132px;
+    height: 40px;  
+    font-size: 21px;
+    font-family: "Century Gothic";
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;          
+}
+.project a{
+    text-decoration: none;
+    color:  rgb(210, 6, 6);
+}
+.project a:hover{ 
+    text-decoration: none;
+    color: #ffffff;
+}
+.project button:hover{
+    border: none;
+    background-color: rgb(210, 6, 6);
+    color: #ffffff;
+}
+
+.project .designs .circle1{
+    border-radius: 50%;
+    background-color: rgb(255, 252, 0);
+    opacity: 0.2;
+    position: absolute;
+    left: 280px;
+    top: 10px;
+    width: 103px;
+    height: 103px;     
+}
+.project .designs .circle2{
+    border-radius: 50%;
+    background-color: rgb(191, 221, 250);
+    opacity: 0.4;
+    position: absolute;
+    left: 1250px;
+    top: 10px;
+    width: 70px;
+    height: 70px;         
+}
+.project .designs .circle3{
+    border: none;
+    border-radius: 50%;
+    background-color: rgb(255, 0, 0);
+    opacity: 0.4;
+    position: absolute;
+    left: 1050px;
+    top: 540px;
+    width: 80px;
+    height: 80px;     
+}
+.project .designs .rocket6 img{
+    position: absolute;
+    left: 952px;
+    top: 10px;   
+}
+.project .designs .rocket7 img{
+    position: absolute;
+    left: 30px;
+    top: 550px;   
+}
+.project .designs .rectangle{
+    position: absolute;
+    left: 1288px;
+    top: 90px;
+}
+
+/**************************** CONTACT *********************************/
+.contact{
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    top: 2236px;
+    width: 1349px;
+    height: 530px;    
+}
+.contact h3{
+    font-size: 60px;
+    font-family: "Century Gothic";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 2.133;
+    position: absolute;
+    left: 480px;
+    top: 2px;     
+}
+.contact .line{
+    background-color: rgb(2, 255, 234);
+    position: absolute;
+    left: 490px;
+    top: 120px;
+    width: 243px;
+    height: 4px;     
+}
+.contact .dot{
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    left: 810px;
+    top: 120px;
+    width: 4px;
+    height: 4px;     
+}
+.contact .detail a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: normal;
+}
+.contact .detail p:nth-child(1){
+    font-size: 19px;
+    font-family: "Century Gothic";
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    left: 240px;
+    top: 200px;    
+}
+.contact .detail p svg:nth-child(1){
+    position: absolute;
+    left: -50px;
+    top: 2px;
+    width: 35px;
+    height: 25px; 
+    fill: #02ffea;    
+}
+.contact .detail p:nth-child(2){
+    font-size: 18px;
+    font-family: "Century Gothic";
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    left: 240px;
+    top: 280px;    
+}
+.contact .detail p:nth-child(3){
+    font-size: 18px;
+    font-family: "Century Gothic";
+    color: rgb(255, 255, 255);
+    position: absolute;
+    left: 730px;
+    top: 200px;   
+    cursor: pointer; 
+}
+.contact .detail p svg:nth-child(3){
+    position: absolute;
+    width: 35px;
+    height: 35px; 
+    fill: #02ffea;    
+}
+.contact .detail p:nth-child(4){
+    font-size: 18px;
+    font-family: "Century Gothic";
+    color: rgb(255, 255, 255);
+    position: absolute;
+    left: 730px;
+    top: 280px; 
+    cursor: pointer;   
+}
+.contact .rectangle{
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    margin-left: 0px;
+    top: 460px;
+    width: 1349px;
+    height: 1px;   
+}
+.contact p{
+    font-size: 14px;
+    font-family: "Century Gothic";
+    color: rgb(255, 255, 255);
+    position: absolute;
+    left: 560px;
+    top: 488px;
+}
+
+
+
+
+
+
+
+/**************************** Responsive Design *********************************/
+/******** Mobile *******/
+@media (max-width: 375px) {
+    .home{
+        width: 375px;
+        height: 667px;
+    }
+    .about{
+        top: 667px;
+        width: 375px;
+        height: 667px;     
+    }
+    .skills{
+        top: 1000px;
+        width: 375px;
+        height: 300px;     
+    }
+    .project{
+        top: 1300px;
+        width: 375px;
+        height: 667px;
+    }
+    .contact{
+        top: 1967px;
+        width: 375px;
+        height: 430px;    
+    }
+
+
+    /************** home **************/
+    .navigation{
+        font-size: 15px;
+        left: 10px;
+        top: 55px;
+        display: flex;
+        flex-direction: row;
+    }
+    .navigation p{
+        margin-left: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .navigation button{
+        font-size: 12px;
+        top: -35px;
+        left: 230px;
+        width: 90px;
+        height: 25px;
+    }
+    .welcome{
+        box-shadow: 0px 10px 8px 0px rgba(32, 143, 254, 0.4);
+        padding-top: -5px;
+        padding-bottom: 5px;
+        font-size: 12px;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        left: 100px;
+        top: 130px;
+        width: 200px;
+        height: 15px;
+        border-radius: 0px 10px 0px 10px; 
+    }
+    .image{
+        background-image: url("Ellipse1res.png");
+        left: 80px;
+        top: 380px;
+        width: 200px;
+        height: 190px;
+    }
+    .image img{
+        width: 170px;
+        height: 250px;
+        margin-top: -57px;
+        margin-left: 25px;
+    }
+    .content p{
+        font-size: 12px;
+        left: 70px;
+        top: 190px;
+    }
+    .content .name p:first-child{
+        font-size: 35px;
+        left: 95px;
+        top: 194px;  
+    }
+    .content .name p:last-child{
+        font-size: 40px;
+        left: 150px;
+        top: 190px;  
+    }
+    .content h2{
+        font-size: 35px;
+        left: 100px;
+        top: 230px;
+    }
+    .content button{
+        box-shadow: 0px 10px 15px 0px rgba(148, 4, 249, 0.35);
+        border-radius: 22px;
+        left: 120px;
+        top: 600px;
+        width: 100px;
+        height: 25px;
+        font-size: 12px;
+        padding-bottom: 2px;
+    }
+    .content button img{
+        width: 8px;
+        height: 12px;
+        padding-top: 5px;
+    }
+    .sidecontact .email{
+        border-radius: 12px;
+        left: 10px;
+        top: 220px;
+        width: 15px;
+        height: 170px;
+    }
+    .email p{
+        font-size: 10px;
+        left: -48px;
+        top: 65px;
+    }
+    .email p svg{
+        width: 13px;
+    }
+    .sidecontact .phone{
+        left: 10px;
+        top: 440px;
+        width: 15px;
+        height: 100px;   
+    }
+    .phone p{
+        font-size: 10px;
+        left: -25px;
+        top: 35px;
+    }
+    .phone p svg{
+        left: -18px;
+        width: 13px;
+        rotate: 20deg;     
+    }
+    .designs .Triangle img{
+        position: relative;
+        top: 80px;
+        left: 0px;
+    }
+    .designs .zig img{
+        position: relative;
+        top: 590px;
+        left: 10px;
+    }
+    .designs .circle{
+        border-width: 2px;
+        left: 50px;
+        top: 8px;
+        width: 20px;
+        height: 20px;  
+    }
+    .designs .tri img{
+        left: 320px;
+    }
+    .designs .tri2 img{
+        left: 180px;
+        top: 55px;
+    }
+    .designs .tri3 img{
+        left: 60px;
+        top: 360px;
+        width: 10px;
+        height: 11px;
+    }
+    .designs .tri4 img{
+        left: 40px;
+        top: 580px;
+        width: 13px;
+        height: 13px;
+    }
+    .designs .tri5 img{
+        top: 300px;
+        left: 320px;
+    }
+    .designs .square img{
+        display: none;
+    }
+    .designs .tri6 img{
+        display: block;
+    }
+    .designs .tri7 img{
+        display: none;
+    }
+    .designs .circle2{
+     display: none;     
+    }
+    .designs .circle3{
+        display: none;
+    }
+    /**************************** ABOUT ME *********************************/
+
+.about h2{
+    font-size: 25px;
+    left: 100px;
+    top: 20px;   
+}
+.about .line{
+    left: 100px;
+    top: 55px;
+    width: 100px;
+    height: 3px;    
+}
+.about .dot{
+    left: 220px;
+    top: 55px;
+    width: 3px;
+    height: 3px;     
+}
+.about h3{
+    font-size: 15px;
+    left: 80px;
+    top: 80px;
+}
+.about p{
+    font-size: 13px;
+    left: 80px;
+    top: 110px;
+}
+.about button{
+    border-width: 1px;
+    left: 80px;
+    top: 300px;
+    width: 100px;
+    height: 20px;
+    padding-left: 10px;
+    font-size: 13px;    
+}
+.about button img{
+    width: 7px;
+    height: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+}
+.about .designs .circle{
+    border: 6px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    position: absolute;
+    left: 300px;
+    top: 30px;
+    width: 25px;
+    height: 25px;     
+}
+.about .designs .rectangle{
+    border-width: 1px;
+    left: -8px;
+    top: 40px;
+    width: 11px;
+    height: 80px;     
+}
+.about .designs .square{
+    left: 20px;
+    top: 80px;
+    width: 8px;
+    height: 8px;      
+}
+.about .designs .dot{
+    display: none;     
+}
+.about .designs .dot2{
+    width: 7px;
+    height: 7px;     
+}
+.about .designs .dot3{
+    display: none;     
+}
+.about .designs .dot4{
+   display: none;    
+}
+.about .designs .dot5{
+    left: 300px;    
+}
+.about .designs .dot6{
+   display: none;    
+}
+.about .designs .ellipse{
+    display: none;    
+}
+.about .designs .rocket{
+   display: none;
+}
+.about .designs .rectangle2{
+    left: 370px;
+    top: 200px;;     
+}
+/**************************** SKILLS *********************************/
+.skills h3{
+    font-size: 25px;
+    top: 0px;
+    left: 100px;    
+}
+.skills .line{
+    left: 100px;
+    top: 60px;
+    width: 55px;
+    height: 3px;    
+}
+.skills .pro p:nth-child(1){
+    font-size: 15px;
+    left: 60px;
+    top: 100px;    
+}
+.skills .pro p:nth-child(2){
+    font-size: 15px;
+    left: 120px;
+    top: 100px;
+    background-color: rgb(255, 255, 255);
+    position: absolute; 
+    width: 40px; 
+}
+.skills .pro p:nth-child(3){
+    font-size: 15px;
+    left: 180px;
+    top: 100px;
+}
+.skills .pro p:nth-child(4){
+    font-size: 15px;
+    left: 218px;
+    top: 100px;
+    width: 42px;
+    height: 19px;
+}
+.skills .pro p:nth-child(5){
+    font-size: 15px;
+    left: 60px;
+    top: 180px;
+}
+.skills .pro p:nth-child(6){
+    font-size: 15px;
+    left: 110px;
+    top: 180px;
+    background-color: rgb(255, 255, 255);
+    position: absolute; 
+    width: 78px;
+    height: 19px;
+}
+.skills .pro p:nth-child(7){
+    font-size: 15px;
+    left: 210px;
+    top: 180px;
+}
+.skills .designs .rocket{
+    position: absolute;
+    top: 10px;   
+}
+.skills .designs .rocket3{
+    top: 260px;
+    margin-left: -50px;
+    width: 14px;
+    height: 18px;  
+}
+.skills .designs .rocket4{
+    left: 310px;
+    top: 160px;
+}
+.skills .designs .rocket5{
+    left: 290px;
+    top: 250px;    
+}
+.skills .designs .circle{
+    border-width: 6px;
+    border-color: rgb(37, 111, 124);
+    border-style: solid;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    left: 300px;
+    top: 30px;
+    width: 33px;
+    height: 33px;        
+}
+/*********** PROJECT *****************/
+.project h3{
+    font-size: 25px;
+    left: 140px;
+    top: 0px;     
+}
+.project .line{
+    left: 140px;
+    top: 45px;
+    width: 70px;
+    height: 3px;     
+}
+.project .dot{
+    left: 220px;
+    top: 45px;
+    width: 3px;
+    height: 3px;    
+}
+.project .pic{
+    display: flex;
+    flex-direction: column;
+    top: 70px;
+}
+.pic .hotel img{
+    border-radius: 10px;
+    margin-top: 90px;
+    margin-left: 30px;
+    box-shadow: 0px 14px 18px 0px rgba(20, 24, 37, 0.53);
+    width: 300px;
+    height: 140px;
+}
+.pic .amc img{
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: 30px;
+    box-shadow: 0px 14px 18px 0px rgba(20, 24, 37, 0.53);
+    width: 300px;
+    height: 140px;
+}
+.pic .hotel .overlay{
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-top: -147px;
+    height: 140px;
+    width: 300px;
+}
+
+
+.pic .hotel .overlay .name{
+    font-size: 12px;
+    top: 40px;
+    left: 100px;
+}
+.pic .hotel .overlay svg{
+    margin-top: 70px;
+    margin-left: 140px;
+    height: 15px;
+    width: 15px;
+    cursor: pointer;
+}
+.pic .amc .overlay{
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-top: -147px;
+    height: 140px;
+    width: 300px;
+}
+.pic .amc:hover .overlay{
+    opacity: 1;
+}
+.pic .amc .overlay .name{
+    font-size: 12px;
+    top: 40px;
+    left: 100px;
+    cursor: pointer;
+}
+.pic .amc .overlay svg{
+    margin-top: 70px;
+    margin-left: 140px;
+    height: 15px;
+    width: 15px;
+}
+.project button{
+    border-width: 2px;
+    border-radius: 5px;
+    left: 130px;
+    top: 500px;
+    width: 100px;
+    height: 35px;  
+    font-size: 12px;      
+}
+.project .designs .circle1{
+    left: 290px;
+    top: 10px;
+    width: 50px;
+    height: 50px;     
+}
+.project .designs .circle2{
+    left: 10px;
+    top: 10px;
+    width: 30px;
+    height: 30px;         
+}
+.project .designs .circle3{
+    left: 50px;
+    top: 500px;
+    width: 40px;
+    height: 40px;     
+}
+.project .designs .rocket6 img{
+    left: 5px;
+    top: 5px;   
+}
+.project .designs .rocket7 img{
+    left: 20px;
+    top: 550px;   
+}
+.project .designs .rectangle{
+    left: 300px;
+    top: 600px;
+}
+
+/************ CONTACT ************/
+.contact h3{
+    font-size: 25px;
+    left: 100px;
+    top: 2px;     
+}
+.contact .line{
+    left: 100px;
+    top: 50px;
+    width: 110px;
+    height: 3px;     
+}
+.contact .dot{
+    left: 240px;
+    top: 50px;
+    width: 3px;
+    height: 3px;     
+}
+.contact .detail p:nth-child(1){
+    font-size: 15px;
+    left: 80px;
+    top: 80px;    
+}
+.contact .detail p svg:nth-child(1){
+    top: 2px;
+    width: 30px;
+    height: 20px;     
+}
+.contact .detail p:nth-child(2){
+    font-size: 14px;
+    left: 80px;
+    top: 140px;    
+}
+.contact .detail p:nth-child(3){
+    font-size: 14px;
+    left: 80px;
+    top: 190px;   
+}
+.contact .detail p svg:nth-child(3){
+    width: 35px;
+    height: 35px; 
+}
+.contact .detail p:nth-child(4){
+    font-size: 14px;
+    left: 80px;
+    top: 260px;   
+}
+.contact .rectangle{
+    top: 350px;
+    width: 375px;
+    height: 1px;   
+}
+.contact p{
+    font-size: 10px;
+    left: 110px;
+    top: 380px;
+}
+}
